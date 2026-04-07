@@ -1,0 +1,80 @@
+## PROJECT SUMMARY
+
+Project Title: Shelf Guard – The Retail Manager
+Developed By : Sujith
+Roll No      : XXX
+
+1. INTRODUCTION
+
+Shelf Guard – The Retail Manager is a Command-Line Interface (CLI) based retail inventory management and analysis system developed using C++. The project is designed to simulate a real-world retail environment where managing inventory efficiently is crucial to avoid losses and maintain smooth operations.
+
+Traditional inventory systems mainly focus on storing and retrieving product data. However, this project goes beyond basic data handling by integrating simple analytical logic to assist in decision-making. It aims to reduce manual effort, improve efficiency, and provide meaningful insights into stock behavior.
+
+2. OBJECTIVE
+
+The primary objective of this project is to build a system that not only manages inventory but also helps in analyzing product trends, identifying risks such as expiry, and ensuring timely restocking. The system is designed to be simple, fast, and effective for small-scale retail management.
+
+3. SYSTEM OVERVIEW
+
+The system maintains a collection of products, each containing attributes such as product ID, name, price, stock levels, shelf life, and seasonal category. The application provides a menu-driven interface through which users can perform various operations.
+
+The system dynamically updates product data and reflects changes across all analytical modules, ensuring consistency and real-time behavior.
+
+4. CORE FEATURES
+
+• Product Management
+Allows users to view all available products, search for specific items using product ID, and add new products to the inventory dynamically.
+
+• Stock Operations
+Supports buying (reducing stock) and restocking (increasing stock) operations using operator overloading for intuitive handling of stock changes.
+
+• Shelf Life Report
+Identifies products that are close to expiration based on their remaining shelf life. This helps in minimizing losses due to unsold expired goods.
+
+• Trend Usage Predictor
+Analyzes purchase patterns to determine high-demand products. This enables better planning and prioritization of frequently sold items.
+
+• Seasonal Product Analysis
+Uses the current system month to identify products relevant to a particular season and checks whether sufficient stock is available for those items.
+
+• Threshold Restock Alert
+Monitors stock levels and flags products that fall below a predefined threshold, ensuring timely restocking and preventing stockouts.
+
+5. TECHNICAL IMPLEMENTATION
+
+The project is implemented entirely in C++ using core programming concepts without relying on advanced libraries like STL containers. It makes use of:
+
+* Classes and Objects for modular design
+* Dynamic memory allocation using pointers
+* Operator overloading for stock manipulation
+* Basic data structures (arrays) for storage
+* File separation using header and source files
+* Menu-driven user interaction using standard input/output
+
+The system is structured into multiple modules such as Product, Market, TrendUsage, ExpiryData, SeasonalCheck, and ThresholdRestock, each responsible for a specific functionality.
+
+6. DESIGN APPROACH
+
+The project follows a modular design where different analytical features operate on a shared dataset. This ensures separation of concerns while maintaining data consistency.
+
+The system simulates realistic retail behavior using controlled random data generation, allowing demonstration of various scenarios such as high demand, low stock, and expiring products.
+
+7. LIMITATIONS
+
+* The system uses fixed-size arrays instead of dynamic containers
+* No persistent storage (data is not saved between runs)
+* Limited input validation
+* CLI-based interface without graphical representation
+
+These limitations were intentionally maintained to focus on core C++ concepts and syllabus constraints.
+
+8. CONCLUSION
+
+Shelf Guard – The Retail Manager demonstrates how fundamental C++ programming concepts can be applied to solve real-world problems. The project successfully combines inventory management with basic analytical logic, making it more than just a data storage system.
+
+It provides a foundation that can be extended into a full-scale retail management application with features such as database integration, graphical interfaces, and advanced analytics.
+
+Overall, the project reflects a practical approach to problem-solving, efficient use of programming concepts, and a clear understanding of system design principles.
+
+---
+
