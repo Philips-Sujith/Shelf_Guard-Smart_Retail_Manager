@@ -1,8 +1,5 @@
-## PROJECT SUMMARY
-
-Project Title: Shelf Guard – The Retail Manager
-Developed By : Sujith
-Roll No      : XXX
+                                       SHELF GUARD - THE SMART RETAIL MANAGER
+Developed By : Sujith B
 
 1. INTRODUCTION
 
